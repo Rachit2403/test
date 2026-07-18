@@ -2,7 +2,7 @@ name = input("Enter your name: ")
 if name == "":
     print("Type in your name dumbo!")
 else:
-    print(f"Hello there, {name}")
+    print(f"Hello there, {name}!")
 age = int(input("Enter your age: "))
 if age >= 100:
     print("You are too old to sign up!")

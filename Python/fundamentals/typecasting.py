@@ -9,3 +9,5 @@ print(x)
 print(type(x))
 name = bool(name)
 print(name)
+#print(type(variable)) : gives type of variable.
+#variable = typex(variable) : changes type of variable to x from whatever it was earlier.

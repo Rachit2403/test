@@ -7,4 +7,5 @@ if num1 == num2:
     print("Both numbers are equal!")
 else:
     max_num = num1 if num1 > num2 else num2
-    print(f"The greater number is {round(max_num)}!")
+    print(f"The greater number is {max_num}!")
+    
