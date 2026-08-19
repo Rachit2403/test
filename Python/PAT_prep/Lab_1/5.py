@@ -1,0 +1,7 @@
+float_str = input("")
+integer = int(input())
+real_part, imag_part = map(float, input().split())
+float_value = float(float_str)
+print(float_value)
+print(integer)
+print(complex(real_part, imag_part))

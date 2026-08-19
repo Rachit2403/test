@@ -1,0 +1,6 @@
+A = int(input())
+B = float(input())
+C = complex(input())
+print(f"Integer: {A}")
+print(f"Floating-point number: {B}")
+print(f"Complex number: {C}")

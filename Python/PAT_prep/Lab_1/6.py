@@ -1,0 +1,6 @@
+N = int(input())
+F = float(input())
+real_part, imag_part = map(float, input().split())
+complex_number = complex(real_part, imag_part)
+print(f"{N}, {F}")
+print(complex_number)
