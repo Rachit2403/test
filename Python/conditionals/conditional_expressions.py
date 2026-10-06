@@ -1,4 +1,4 @@
-# X is condition else Y
+# X if condition else Y
 
 
 num1 = float(input("Enter number A: "))
@@ -8,4 +8,3 @@ if num1 == num2:
 else:
     max_num = num1 if num1 > num2 else num2
     print(f"The greater number is {max_num}!")
-    

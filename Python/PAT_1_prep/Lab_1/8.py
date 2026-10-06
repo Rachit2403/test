@@ -1,0 +1,7 @@
+f1 = float(input())
+f2 = float(input())
+i = int(input())
+print("The values in reverse order: ")
+print(i)
+print(f2)
+print(f1)

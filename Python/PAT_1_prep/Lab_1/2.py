@@ -1,0 +1,7 @@
+prod_name = input("")
+reviewer_name = input("")
+review_score = float(input(""))
+print("Review details:")
+print(f"Product name: {prod_name}")
+print(f"Reviewer name: {reviewer_name}")
+print(f"Review score: {review_score: .1f}")

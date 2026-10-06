@@ -1,0 +1,6 @@
+dish_name = input("")
+restaurant_name = input("")
+rating = float(input(""))
+print(f"Dish name: {dish_name}")
+print(f"Restaurant name: {restaurant_name}")
+print(f"Rating: {rating: .1f}")

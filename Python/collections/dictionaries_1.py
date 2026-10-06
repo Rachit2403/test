@@ -3,3 +3,4 @@ capitals = {"USA": "Washington DC",
             "China": "Beijing",
             "Russia": "Moscow"}
 print(capitals.get("India"))
+# if the asked key doesn't exist in the dictionary, python returns 'none'

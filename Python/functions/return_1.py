@@ -1,15 +1,16 @@
-x = 1
-y = 2
 def add(x, y):
     z = x + y
-    print(z)
+    return z
 def subtract(x, y):
     z = x - y
-    print(z)
+    return z
 def multiply(x, y):
     z = x * y
-    print(z)
+    return z
 def divide(x, y):
     z = x / y
-    print(z)
-add(x, y)
+    return z
+print(add(1, 2))
+print(subtract(1, 2))
+print(multiply(1, 2))
+print(divide(1, 2))

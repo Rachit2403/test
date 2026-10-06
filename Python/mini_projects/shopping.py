@@ -16,4 +16,4 @@ for item in items:
 for price in prices:
     total += price
 print()
-print(f"Your total billing amount is: {total}")
+print(f"Your total billing amount is: ${total}")

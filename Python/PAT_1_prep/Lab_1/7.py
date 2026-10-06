@@ -1,0 +1,8 @@
+name = input("")
+steps = int(input())
+calories_burned = float(input())
+time_spent = float(input())
+print(f"Username: {name}")
+print(f"Total steps: {steps}")
+print(f"Calories burned: {calories_burned}")
+print(f"Time spent in hours: {time_spent} hours")

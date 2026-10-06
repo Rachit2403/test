@@ -1,0 +1,6 @@
+recipe_name = input("")
+number_of_ingredients = int(input(""))
+prep_time = float(input(""))
+print(f"Recipe: {recipe_name}")
+print(f"Number of ingredients: {number_of_ingredients}")
+print(f"Preparation time: {prep_time: .1f}")
