@@ -1,0 +1,20 @@
+#metacharacters:
+#. => any single character except newline
+#^ => start of a string
+#$ => end of a string
+#* => zero or more repetitions
+#+ => one or more repetitions
+#? => zero or one repetitions
+#{n, m} => number of repetitions is between n and m
+#[...] => [character class] matches any single character inside
+#[^...] => [negated class] matches not even one character inside
+#| => or operator
+#\d => all digits
+#\D => no digits
+#\w => all word letters
+#\W => no word letters
+#\s => all spaces
+#\S => no spaces
+#search => first match
+#findall => find all
+#sub => find and replace

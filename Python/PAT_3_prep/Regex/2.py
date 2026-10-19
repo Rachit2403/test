@@ -1,4 +1,5 @@
 import re
 a = "My phone number is 70692-13567"
-match = re.search(r"\d{5}-\d{5}", a)
+pattern = r"\d{5}-\d{5}"
+match = re.search(pattern, a)
 print(match.group())
